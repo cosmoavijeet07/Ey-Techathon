@@ -1,0 +1,120 @@
+/* 
+body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(to right, #002244, #0056b3);
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    backdrop-filter: blur(10px);
+  }
+   */ 
+  /* Dashboard Wrapper */
+  .dashboard-wrapper {
+    width: 100%;
+    max-width: 1200px;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  /* Dashboard Header */
+  .dashboard-header {
+    margin-bottom: 30px;
+  }
+  
+  .dashboard-title {
+    font-size: 2.5rem;
+    font-weight: 600;
+    color: #ffc107; /* Accent Yellow */
+  }
+  
+  /* Glassmorphic Card */
+  .glass-card {
+    background: rgba(255, 255, 255, 0.15);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    border-radius: 15px;
+    backdrop-filter: blur(20px);
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    transition: background 0.3s ease, border-color 0.3s ease;
+  }
+  
+  .glass-card:hover {
+    background: rgba(255, 255, 255, 0.25);
+    border-color: rgba(255, 255, 255, 0.5);
+  }
+  
+  /* Call List */
+  .call-list {
+    margin-top: 20px;
+  }
+  
+  .no-calls-text {
+    font-size: 1.2rem;
+    color: rgba(255, 255, 255, 0.8);
+  }
+  
+  .call-items {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .call-item {
+    background: rgba(255, 255, 255, 0.1);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 10px;
+    padding: 15px;
+    margin-bottom: 15px;
+    transition: background 0.3s ease;
+  }
+  
+  .call-item:hover {
+    background: rgba(255, 255, 255, 0.2);
+  }
+  
+  .call-details p {
+    margin: 5px 0;
+    font-size: 1rem;
+    color: rgba(255, 255, 255, 0.9);
+  }
+  
+  .call-details strong {
+    color: hsl(124, 100%, 51%); /* Accent Yellow */
+  }
+  
+  /* Action Buttons */
+  .call-actions {
+    margin-top: 10px;
+  }
+  
+  .action-button {
+    padding: 8px 16px;
+    border: none;
+    border-radius: 8px;
+    font-size: 0.9rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background 0.3s ease, color 0.3s ease;
+  }
+  
+  .action-button.in-progress {
+    background: #ffc107; /* Yellow */
+    color: #222;
+  }
+  
+  .action-button.resolved {
+    background: #4caf50; /* Green */
+    color: #fff;
+  }
+  
+  .action-button:hover {
+    opacity: 0.9;
+  }
+  
+  /* Loading Text */
+  .loading-text {
+    font-size: 1.2rem;
+    color: rgba(255, 255, 255, 0.8);
+  }

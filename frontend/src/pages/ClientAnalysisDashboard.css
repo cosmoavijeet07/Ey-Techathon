@@ -1,0 +1,166 @@
+/* Reset and Global Styles */
+/* * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+} */
+
+/* body, html {
+  font-family: 'Poppins', sans-serif;
+  background: linear-gradient(to right, #002244, #0056b3);
+  color: hsl(0, 71%, 38%);
+  height: 100%;
+  width: 100%;
+  overflow-x: hidden;
+} */
+
+/* 📌 Dashboard Layout */
+.dashboard-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  width: 100vw;
+  padding: 2rem;
+  align-items: center;
+  text-align: center;
+}
+
+/* 🏆 Dashboard Title */
+.dashboard-title {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: #ffc107; /* Golden Accent */
+  text-shadow: 2px 2px 10px rgba(255, 193, 7, 0.8);
+  margin-bottom: 2rem;
+}
+
+/* 🚀 Navigation Bar - Glassmorphic */
+.navbar {
+  display: flex;
+  justify-content: center;
+  gap: 1.5rem;
+  background: rgba(255, 255, 255, 0.15);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  backdrop-filter: blur(15px);
+  padding: 1rem;
+  border-radius: 15px;
+  box-shadow: 0px 8px 32px rgba(0, 0, 0, 0.2);
+  width: 90%;
+}
+
+.nav-button {
+  padding: 12px 20px;
+  font-size: 1rem;
+  font-weight: bold;
+  color: #ffffff;
+  text-decoration: none;
+  border-radius: 8px;
+  transition: all 0.3s ease-in-out;
+  background: rgba(255, 255, 255, 0.2);
+  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.3);
+}
+
+.nav-button:hover {
+  background: rgba(255, 255, 255, 0.35);
+  color: #ffc107;
+  transform: translateY(-3px);
+}
+
+/* 🔥 Logout Button */
+.logout-button {
+  background: #e74c3c;
+  color: white;
+  padding: 12px 20px;
+  font-weight: bold;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+.logout-button:hover {
+  background: #c0392b;
+  transform: scale(1.05);
+}
+
+/* 📊 Claims Table - Glassmorphic */
+.claims-table-container {
+  background: rgba(255, 255, 255, 0.1);
+  padding: 2rem;
+  border-radius: 15px;
+  backdrop-filter: blur(10px);
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.2);
+  width: 90%;
+  margin-top: 2rem;
+}
+
+.table-title {
+  font-size: 1.8rem;
+  font-weight: bold;
+  margin-bottom: 15px;
+  color: #ffc107;
+}
+
+.claims-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+}
+
+.claims-table th, .claims-table td {
+  padding: 12px;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  text-align: center;
+}
+
+.claims-table th {
+  background: rgba(255, 255, 255, 0.2);
+  color: white;
+}
+
+.claims-table td {
+  background: rgba(255, 255, 255, 0.1);
+}
+
+/* 🎯 SLA Status Colors */
+.sla-breached {
+  color: #e74c3c;
+  font-weight: bold;
+}
+
+.sla-ok {
+  color: #27ae60;
+  font-weight: bold;
+}
+
+/* 🌟 Responsive Design */
+@media (max-width: 768px) {
+  .navbar {
+      flex-direction: column;
+      gap: 10px;
+      text-align: center;
+  }
+
+  .claims-table-container {
+      padding: 1rem;
+  }
+
+  .claims-table th, .claims-table td {
+      font-size: 0.9rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .dashboard-container {
+      padding: 1rem;
+  }
+
+  .dashboard-title {
+      font-size: 2rem;
+  }
+
+  .nav-button, .logout-button {
+      padding: 10px;
+      font-size: 0.9rem;
+  }
+}

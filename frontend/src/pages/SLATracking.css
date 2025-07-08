@@ -1,0 +1,76 @@
+/* Global Styles */
+
+  /* Dashboard Wrapper */
+  .dashboard-wrapper {
+    width: 100%;
+    max-width: 1200px;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  /* Dashboard Header */
+  .dashboard-header {
+    margin-bottom: 30px;
+  }
+  
+  .dashboard-title {
+    font-size: 2.5rem;
+    font-weight: 600;
+    color: #ffc107; /* Accent Yellow */
+  }
+  
+  /* Glassmorphic Card */
+  .glass-card {
+    background: #bac00526;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    border-radius: 15px;
+    backdrop-filter: blur(20px);
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    transition: background 0.3s ease, border-color 0.3s ease;
+  }
+  
+  .glass-card:hover {
+    background: rgba(255, 255, 255, 0.25);
+    border-color: rgba(255, 255, 255, 0.5);
+  }
+  
+  /* SLA Alerts */
+  .sla-alerts {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  .no-alerts {
+    font-size: 1.2rem;
+    color: rgba(255, 255, 255, 0.8);
+  }
+  
+  .alert-list {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .alert-item {
+    background: #ff0000b9; /* Red background for alerts */
+    border: 1px solid rgba(255, 0, 0, 0.632);
+    border-radius: 10px;
+    padding: 15px;
+    margin-bottom: 15px;
+    transition: background 0.3s ease;
+    width: 900px;
+  }
+  
+  .alert-item:hover {
+    background: rgba(255, 0, 0, 0.2);
+  }
+  
+  .alert-item p {
+    margin: 5px 0;
+    font-size: 1rem;
+    color: rgba(255, 255, 255, 0.9);
+  }
+  
+  .alert-item strong {
+    color: #ffc107; /* Accent Yellow */
+  }

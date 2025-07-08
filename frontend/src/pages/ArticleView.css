@@ -1,0 +1,150 @@
+/* Knowledge Base Specific Styles */
+.knowledge-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 2.5rem;
+    text-align: center;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 20px;
+    backdrop-filter: blur(10px);
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.2);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+  }
+  
+  .knowledge-title {
+    font-size: 2rem;
+    font-weight: 600;
+    color: #ffc107; /* Accent Yellow */
+    margin-bottom: 1.5rem;
+  }
+  
+  .input-group {
+    margin-bottom: 1.5rem;
+  }
+  
+  .glass-input {
+    width: 100%;
+    padding: 0.75rem 1rem;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    border-radius: 10px;
+    background: rgba(255, 255, 255, 0.15);
+    backdrop-filter: blur(10px);
+    color: #ffffff;
+    font-size: 1rem;
+    transition: all 0.3s ease;
+  }
+  
+  .glass-input:focus {
+    border-color: rgba(255, 255, 255, 0.5);
+    background: rgba(255, 255, 255, 0.25);
+    outline: none;
+  }
+  
+  .glass-input::placeholder {
+    color: rgba(255, 255, 255, 0.6);
+  }
+  
+  .knowledge-button {
+    width: 100%;
+    padding: 0.75rem;
+    border: none;
+    border-radius: 10px;
+    background: rgba(255, 255, 255, 0.15);
+    backdrop-filter: blur(10px);
+    color: #ffffff;
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+  
+  .knowledge-button:hover {
+    background: rgba(255, 255, 255, 0.25);
+    transform: translateY(-2px);
+  }
+  
+  .answer-container {
+    margin-top: 2rem;
+    padding: 1.5rem;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+  }
+  
+  .answer-title {
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: #ffc107; /* Accent Yellow */
+    margin-bottom: 1rem;
+  }
+  
+  .answer-text {
+    font-size: 1rem;
+    color: rgba(255, 255, 255, 0.8);
+    line-height: 1.5;
+  }
+  
+  /* Responsive Adjustments */
+  @media (max-width: 768px) {
+    .knowledge-container {
+      padding: 1.5rem;
+    }
+  
+    .knowledge-title {
+      font-size: 1.75rem;
+    }
+  
+    .glass-input {
+      padding: 0.5rem 0.75rem;
+      font-size: 0.875rem;
+    }
+  
+    .knowledge-button {
+      padding: 0.5rem;
+      font-size: 0.875rem;
+    }
+  
+    .answer-container {
+      padding: 1rem;
+    }
+  
+    .answer-title {
+      font-size: 1.25rem;
+    }
+  
+    .answer-text {
+      font-size: 0.875rem;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .knowledge-container {
+      padding: 1rem;
+    }
+  
+    .knowledge-title {
+      font-size: 1.5rem;
+    }
+  
+    .glass-input {
+      padding: 0.5rem;
+      font-size: 0.75rem;
+    }
+  
+    .knowledge-button {
+      padding: 0.5rem;
+      font-size: 0.75rem;
+    }
+  
+    .answer-container {
+      padding: 0.75rem;
+    }
+  
+    .answer-title {
+      font-size: 1rem;
+    }
+  
+    .answer-text {
+      font-size: 0.75rem;
+    }
+  }

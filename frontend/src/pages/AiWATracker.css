@@ -1,0 +1,52 @@
+/* General Styling */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  .call-tracker-container {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+  }
+  
+  /* Header Styling */
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #f8f9fa;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .page-title {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+    margin: 0;
+  }
+  
+  .back-button,
+  .schedule-call-button {
+    padding: 8px 16px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 14px;
+  }
+  
+  .back-button:hover,
+  .schedule-call-button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Google Sheets Embed Styling */
+  .sheet-embed {
+    flex: 1;
+    width: 100%;
+    height: calc(100vh - 60px); /* Full height minus header height */
+    border: none;
+  }

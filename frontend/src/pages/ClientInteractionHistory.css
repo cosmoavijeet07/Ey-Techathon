@@ -1,0 +1,159 @@
+/* Client Interaction History Specific Styles */
+.client-interaction-history-wrapper {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    width: 100vw;
+    overflow-x: hidden;
+  }
+  
+  .client-interaction-history-header {
+    width: 100%;
+    padding: 2rem;
+    text-align: center;
+    background: rgba(0, 0, 0, 0.1);
+  }
+  
+  .client-interaction-history-title {
+    font-size: 2.5rem;
+    font-weight: 600;
+    color: #ffc107; /* Accent Yellow */
+    width: 100%;
+  }
+  
+  .client-interaction-history-main {
+    flex: 1;
+    width: 100%;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+  }
+  
+  .client-interaction-history-card {
+    background: rgba(255, 255, 255, 0.15);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    border-radius: 15px;
+    backdrop-filter: blur(10px);
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.2);
+    transition: all 0.3s ease;
+    width: 100%;
+    padding: 2rem;
+  }
+  
+  .client-interaction-history-card:hover {
+    background: rgba(255, 255, 255, 0.25);
+    border-color: rgba(255, 255, 255, 0.5);
+    transform: translateY(-5px);
+  }
+  
+  .client-interaction-history-table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .client-interaction-history-table th,
+  .client-interaction-history-table td {
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    padding: 1rem;
+    text-align: left;
+  }
+  
+  .client-interaction-history-table th {
+    background: rgba(255, 255, 255, 0.2);
+    font-weight: 600;
+  }
+  
+  .client-interaction-history-table td {
+    background: rgba(255, 255, 255, 0.1);
+  }
+  
+  .client-interaction-history-table tr:hover {
+    background: rgba(255, 255, 255, 0.2);
+  }
+  
+  /* Responsive Adjustments */
+  @media (max-width: 768px) {
+    .client-interaction-history-title {
+      font-size: 2rem;
+    }
+  
+    .client-interaction-history-main {
+      padding: 1rem;
+    }
+  
+    .client-interaction-history-card {
+      padding: 1rem;
+    }
+  
+    .client-interaction-history-table th,
+    .client-interaction-history-table td {
+      padding: 0.5rem;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .client-interaction-history-title {
+      font-size: 1.5rem;
+    }
+  
+    .client-interaction-history-table th,
+    .client-interaction-history-table td {
+      padding: 0.5rem;
+      font-size: 0.875rem;
+    }
+  }
+  
+.client-interaction-history {
+    padding: 2rem;
+    text-align: center;
+}
+
+.client-interaction-history h2 {
+    font-size: 2rem;
+    font-weight: 600;
+    color: #ffc107; /* Accent Yellow */
+    margin-bottom: 1.5rem;
+}
+
+.client-interaction-history .glass-card {
+    padding: 2rem;
+    text-align: center;
+}
+
+.client-interaction-history table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 1rem;
+}
+
+.client-interaction-history table th,
+.client-interaction-history table td {
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    padding: 0.75rem;
+    text-align: left;
+}
+
+.client-interaction-history table th {
+    background: rgba(255, 255, 255, 0.1);
+    font-weight: 600;
+    color: #ffc107; /* Accent Yellow */
+}
+
+.client-interaction-history table td {
+    background: rgba(255, 255, 255, 0.05);
+    color: #ffffff;
+}
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+    .client-interaction-history .glass-card {
+        padding: 1rem;
+    }
+
+    .client-interaction-history table th,
+    .client-interaction-history table td {
+        padding: 0.5rem;
+        font-size: 0.875rem;
+    }
+}

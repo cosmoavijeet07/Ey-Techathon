@@ -1,0 +1,105 @@
+/* Escalation Management Specific Styles */
+.escalation-management-wrapper {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    width: 100vw;
+    overflow-x: hidden;
+  }
+  
+  .escalation-management-header {
+    width: 100%;
+    padding: 2rem;
+    text-align: center;
+    background: rgba(0, 0, 0, 0.1);
+  }
+  
+  .escalation-management-title {
+    font-size: 2.5rem;
+    font-weight: 600;
+    color: #ffc107; /* Accent Yellow */
+    width: 100%;
+  }
+  
+  .escalation-management-main {
+    flex: 1;
+    width: 100%;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+  }
+  
+  .escalation-management-card {
+    background: rgba(255, 255, 255, 0.15);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    border-radius: 15px;
+    backdrop-filter: blur(10px);
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.2);
+    transition: all 0.3s ease;
+    width: 100%;
+    padding: 2rem;
+  }
+  
+  .escalation-management-card:hover {
+    background: rgba(255, 255, 255, 0.25);
+    border-color: rgba(255, 255, 255, 0.5);
+    transform: translateY(-5px);
+  }
+  
+  .escalation-management-table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .escalation-management-table th,
+  .escalation-management-table td {
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    padding: 1rem;
+    text-align: left;
+  }
+  
+  .escalation-management-table th {
+    background: rgba(255, 255, 255, 0.2);
+    font-weight: 600;
+  }
+  
+  .escalation-management-table td {
+    background: rgba(255, 255, 255, 0.1);
+  }
+  
+  .escalation-management-table tr:hover {
+    background: rgba(255, 255, 255, 0.2);
+  }
+  
+  /* Responsive Adjustments */
+  @media (max-width: 768px) {
+    .escalation-management-title {
+      font-size: 2rem;
+    }
+  
+    .escalation-management-main {
+      padding: 1rem;
+    }
+  
+    .escalation-management-card {
+      padding: 1rem;
+    }
+  
+    .escalation-management-table th,
+    .escalation-management-table td {
+      padding: 0.5rem;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .escalation-management-title {
+      font-size: 1.5rem;
+    }
+  
+    .escalation-management-table th,
+    .escalation-management-table td {
+      padding: 0.5rem;
+      font-size: 0.875rem;
+    }
+  }

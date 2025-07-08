@@ -1,0 +1,147 @@
+/* General Styles */
+/* body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  background: linear-gradient(to right, #002244, #0056b3);
+  color: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  backdrop-filter: blur(10px);
+} */
+
+/* Dashboard Wrapper */
+.dashboard-wrapper {
+  width: 100%;
+  max-width: 1400px;
+  padding: 20px;
+  text-align: center;
+}
+
+/* Dashboard Header */
+.dashboard-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.dashboard-title {
+  font-size: 2.5rem;
+  font-weight: 600;
+  color: #ffc107;
+}
+
+/* Header Buttons */
+.header-buttons {
+  display: flex;
+  gap: 15px;
+}
+
+.header-button {
+  padding: 12px 20px;
+  border: none;
+  border-radius: 8px;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: transform 0.2s ease, background 0.3s ease;
+}
+
+.header-button.primary {
+  background: #ffc107;
+  color: #222;
+}
+
+.header-button.secondary {
+  background: #28a745;
+  color: #fff;
+}
+
+.header-button.tertiary {
+  background: #17a2b8;
+  color: #fff;
+}
+
+.header-button:hover {
+  transform: scale(1.05);
+  opacity: 0.9;
+}
+
+/* Glassmorphic Card */
+.glass-card {
+  background: rgba(255, 255, 255, 0.1);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  border-radius: 15px;
+  backdrop-filter: blur(15px);
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.2);
+  padding: 20px;
+  transition: background 0.3s ease, border-color 0.3s ease;
+}
+
+.glass-card:hover {
+  background: rgba(255, 255, 255, 0.2);
+  border-color: rgba(255, 255, 255, 0.5);
+}
+
+/* Calls Table */
+.call-table {
+  width: 100%;
+  overflow-x: auto;
+}
+
+.call-table table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.call-table th, .call-table td {
+  padding: 12px 15px;
+  text-align: center;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.call-table th {
+  background: rgba(255, 255, 255, 0.2);
+  font-size: 1.1rem;
+}
+
+.call-table tbody tr {
+  transition: background 0.3s ease;
+}
+
+.call-table tbody tr:hover {
+  background: rgba(255, 255, 255, 0.2);
+}
+
+/* Call Button */
+.call-button {
+  padding: 10px 16px;
+  border: none;
+  border-radius: 8px;
+  background: #ff5722;
+  color: #fff;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: transform 0.2s ease, background 0.3s ease;
+}
+
+.call-button:hover {
+  transform: scale(1.05);
+  background: #e64a19;
+}
+
+/* Loading Text */
+.loading-text {
+  font-size: 1.2rem;
+  color: rgba(255, 255, 255, 0.8);
+}
+
+/* No Calls Message */
+.no-calls-text {
+  font-size: 1.2rem;
+  color: rgba(255, 255, 255, 0.8);
+  padding: 20px;
+}

@@ -1,0 +1,17 @@
+{
+    "name": "twilio-call-server",
+    "type": "module",
+    "version": "1.0.0",
+    "dependencies": {
+        "@fastify/cors": "^11.0.0",
+        "@fastify/formbody": "^8.0.0",
+        "@fastify/websocket": "^11.0.2",
+        "dotenv": "^16.0.0",
+        "fastify": "^5.0.0",
+        "twilio": "^4.7.2",
+        "ws": "^8.0.0"
+    },
+    "scripts": {
+        "start": "node server.js"
+    }
+}

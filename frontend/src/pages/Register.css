@@ -1,0 +1,97 @@
+/* Register Specific Styles */
+.register {
+    padding: 2rem;
+    text-align: center;
+}
+
+.register h2 {
+    font-size: 2rem;
+    font-weight: 600;
+    color: #ffc107; /* Accent Yellow */
+    margin-bottom: 1.5rem;
+}
+
+.register .glass-card {
+    padding: 2rem;
+    text-align: center;
+}
+
+.register .input-group {
+    margin-bottom: 1.5rem;
+}
+
+.register .input-group label {
+    display: block;
+    margin-bottom: 0.5rem;
+    font-size: 1rem;
+    font-weight: 500;
+    color: #ffffff;
+}
+
+.register .glass-input {
+    width: 100%;
+    padding: 0.75rem;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    border-radius: 10px;
+    background: rgba(255, 255, 255, 0.15);
+    backdrop-filter: blur(10px);
+    color: #ffffff;
+    font-size: 1rem;
+    transition: all 0.3s ease;
+}
+
+.register .glass-input:focus {
+    border-color: rgba(255, 255, 255, 0.5);
+    background: rgba(255, 255, 255, 0.25);
+    outline: none;
+}
+
+.register .glass-button {
+    width: 100%;
+    padding: 0.75rem;
+    border: none;
+    border-radius: 10px;
+    background: rgba(255, 255, 255, 0.15);
+    backdrop-filter: blur(10px);
+    color: #ffffff;
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.register .glass-button:hover {
+    background: rgba(255, 255, 255, 0.25);
+    transform: translateY(-2px);
+}
+
+.register .message {
+    margin-top: 1rem;
+    font-size: 1rem;
+    color: #ffffff;
+}
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+    .register .glass-card {
+        padding: 1rem;
+    }
+
+    .register .input-group label {
+        font-size: 0.875rem;
+    }
+
+    .register .glass-input {
+        padding: 0.5rem;
+        font-size: 0.875rem;
+    }
+
+    .register .glass-button {
+        padding: 0.5rem;
+        font-size: 0.875rem;
+    }
+
+    .register .message {
+        font-size: 0.875rem;
+    }
+}

@@ -1,0 +1,53 @@
+/* Batch Processing Specific Styles */
+.batch-processing {
+    padding: 2rem;
+  }
+  
+  .batch-processing .glass-card {
+    padding: 2rem;
+    text-align: center;
+  }
+  
+  .batch-processing .action-button {
+    padding: 1rem 2rem;
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: #ffffff;
+    background: none;
+    border: none;
+    cursor: pointer;
+    text-align: center;
+    width: 100%;
+    margin-bottom: 1rem;
+  }
+  
+  .batch-processing .action-button:hover {
+    background: #ffc107; /* Accent Yellow */
+    color: #222;
+  }
+  
+  .batch-processing .status {
+    font-size: 1.2rem;
+    margin-top: 1rem;
+  }
+  
+  .batch-processing .processed-items {
+    margin-top: 1rem;
+  }
+  
+  .batch-processing .processed-items h3 {
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: #ffc107; /* Accent Yellow */
+    margin-bottom: 1rem;
+  }
+  
+  .batch-processing .processed-items ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .batch-processing .processed-items li {
+    font-size: 1rem;
+    margin-bottom: 0.5rem;
+  }

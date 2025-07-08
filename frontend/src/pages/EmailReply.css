@@ -1,0 +1,134 @@
+/* Global Styles */
+
+  
+  /* Main Container */
+  .email-reply-container {
+    width: 900px;
+    max-width: 1200px;
+    transition: all 0.3s ease-in-out;
+    height: 600px;
+  }
+  
+  /* Full-Page Mode */
+  .full-container {
+    text-align: center;
+    padding: 30px;
+    max-width: 600px;
+    margin: auto;
+  }
+  
+  /* Split Layout */
+  .split-layout {
+    display: flex;
+    gap: 20px;
+  }
+  
+  /* Half Sections */
+  .email-section {
+    flex: 1;
+    padding: 20px;
+    border-radius: 10px;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .email-section:hover {
+    transform: scale(1.02);
+  }
+  
+  /* Glassmorphic Card */
+  .glass-card {
+    background: rgba(255, 255, 255, 0.15);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    border-radius: 15px;
+    backdrop-filter: blur(20px);
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    transition: background 0.3s ease, border-color 0.3s ease;
+    height: 100%;
+    width: 100%;
+  }
+  
+  .glass-card:hover {
+    background: rgba(255, 255, 255, 0.25);
+    border-color: rgba(255, 255, 255, 0.5);
+  }
+  
+  /* Section Titles */
+  .section-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #ffc107;
+    margin-bottom: 10px;
+  }
+  
+  /* Email Content */
+  .email-content {
+    background: rgba(255, 255, 255, 0.2);
+    padding: 15px;
+    border-radius: 10px;
+    min-height: 150px;
+    white-space: pre-wrap;
+  }
+  
+  /* Form Styles */
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  .form-label {
+    display: block;
+    font-size: 1rem;
+    font-weight: 600;
+    margin-bottom: 5px;
+    color: rgba(255, 255, 255, 0.9);
+  }
+  
+  .form-input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.2);
+    color: #ffffff;
+    font-size: 1rem;
+    transition: border-color 0.3s ease;
+  }
+  
+  .form-input:focus {
+    border-color: #ffc107;
+    outline: none;
+  }
+  
+  .form-textarea {
+    height: 300px;
+    resize: none;
+  }
+  
+  /* Button */
+  .action-button {
+    padding: 12px 24px;
+    border: none;
+    border-radius: 8px;
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background 0.3s ease, color 0.3s ease;
+  }
+  
+  .submit-button {
+    width: 50%;
+    padding: 1.2rem;
+    background: linear-gradient(145deg, #ffc107, #e0a800);
+    color: #222;
+    border: none;
+    border-radius: 12px;
+    font-size: 1.1rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background 0.3s ease, transform 0.2s ease;
+  }
+  
+  .submit-button:hover {
+    background: #45a049;
+  }
+  
